@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+
+/*---------carousel icon-------------- */
+
+.carousel-control-prev {
+    top: -35%;
+}
+
+.carousel-control-next {
+    top: -35%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .carousel-control-prev {
+        top: 0% !important;
+    }
+    .carousel-control-next {
+        top: 0% !important;
+    }
+}
+
+
+/* card css*/
+
+.card {
+    border: none;
+    margin: 2px;
+}
+
+
+/* cheif details */
+
+img.card-img-top.img-fluid {
+    height: 350px;
+}
+
+
+/* .col-lg-4 {
+    margin: auto;
+    margin-top: 5px;
+} */
